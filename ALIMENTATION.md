@@ -16,7 +16,7 @@ COMPOSANTS QUE JE N’AI PAS RAJOUTÉ AU SOURCING
 
 * **2x Résistances de 5,1 kΩ :** À placer sur les pins CC1 et CC2 du port USB-C. Sans elles, les chargeurs modernes (smartphone/PC) ne délivreront aucun courant.  
 * **1x Résistance de 2 kΩ :** À brancher sur la puce MCP73831 pour fixer le courant de charge à 500mA (recharge complète en 1h).  
-* **2x Résistances de 100 kΩ :** Pour créer un "pont diviseur". Cela permet au STM32 de mesurer la tension de la batterie et d'envoyer le niveau de charge (ex: 75%) à ton smartphone.  
+* **2x Résistances de 100 kΩ :** Pour créer un "pont diviseur". Cela permet au STM32 de mesurer la tension de la batterie et d'envoyer le niveau de charge (ex: 75%) à ton smartphone et surtout faire un pont diviseur de tension pour limiter la tension de la batterie .  
 * **1x Résistance de 470 Ω :** Pour limiter le courant de la LED de statut.
 
 #### **2\. Condensateurs de stabilité**
