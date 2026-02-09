@@ -1,5 +1,10 @@
 # ENSEA_S6_PROJET_OSCILO
 Projet de S6 , réalisation d'un Oscilloscope Smartphone    
+## Etudiants concernés
+* Yassine JABOU
+* Younes ACHBAD
+* Gabriel BOUDOUX D'HAUTEFEUILLE
+* Gökay OZDEN
          
 ## Abstract     
 Le but du projet est de réaliser un système embarquée agissant comme un oscilloscope. Celui ci serait composé de deux parties :      
