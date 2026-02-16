@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PGA849RGTR
+#/20665657/1898888/2.50/17/3/Integrated Circuit
+DEF PGA849RGTR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 700 50 H V L CNN
+F1 "PGA849RGTR" 1250 600 50 H V L CNN
+F2 "QFN50P300X300X100-17N-D" 1250 500 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/pga849.pdf?ts=1751466447660&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FPGA849" 1250 400 50 H I L CNN
+F4 "Instrumentation Amplifiers Low-noise wide-bandwidth precision programmable-gain amplifier" 1250 300 50 H I L CNN "Description"
+F5 "1" 1250 200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 100 50 H I L CNN "Manufacturer_Name"
+F7 "PGA849RGTR" 1250 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1250 -100 50 H I L CNN "Mouser Part Number"
+F9 "" 1250 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -300 50 H I L CNN "Arrow Part Number"
+F11 "" 1250 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X A2 1 0 0 200 R 50 50 0 0 P
+X IN+ 2 0 -100 200 R 50 50 0 0 P
+X IN- 3 0 -200 200 R 50 50 0 0 P
+X A0 4 0 -300 200 R 50 50 0 0 P
+X A1 5 500 -900 200 U 50 50 0 0 P
+X VS+ 6 600 -900 200 U 50 50 0 0 P
+X LVDD 7 700 -900 200 U 50 50 0 0 P
+X NC_1 8 800 -900 200 U 50 50 0 0 P
+X DA_IN- 12 1400 0 200 L 50 50 0 0 P
+X OUT 11 1400 -100 200 L 50 50 0 0 P
+X REF 10 1400 -200 200 L 50 50 0 0 P
+X DA_IN+ 9 1400 -300 200 L 50 50 0 0 P
+X EP 17 500 700 200 D 50 50 0 0 P
+X DGND 16 600 700 200 D 50 50 0 0 P
+X VS- 15 700 700 200 D 50 50 0 0 P
+X LVSS 14 800 700 200 D 50 50 0 0 P
+X NC_2 13 900 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1200 500 1200 -700 200 -700 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library
