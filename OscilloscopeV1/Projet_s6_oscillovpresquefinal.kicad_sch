@@ -8066,7 +8066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 168.6052 240.03 0)
 			(effects
 				(font
@@ -9133,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -10365,7 +10365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 200.3552 238.76 0)
 			(effects
 				(font
@@ -10435,7 +10435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 171.1452 214.63 0)
 			(effects
 				(font
@@ -11054,7 +11054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 218.44 0)
 			(effects
 				(font
@@ -11257,7 +11257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 196.5452 213.36 0)
 			(effects
 				(font
