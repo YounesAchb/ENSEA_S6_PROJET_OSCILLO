@@ -4365,7 +4365,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM1117MP-5.0"
+		(symbol "Regulator_Linear:MCP1826S"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4377,7 +4380,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1117MP-5.0"
+			(property "Value" "MCP1826S"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4386,7 +4389,25 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" ""
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4395,7 +4416,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(property "ki_keywords" "regulator linear ldo"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4404,7 +4425,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223"
+			(property "ki_fp_filters" "SOT?223*TabPin2* TO?220* TO?263*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4413,28 +4434,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM1117MP-5.0_0_1"
+			(symbol "MCP1826S_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4444,7 +4447,7 @@
 					)
 				)
 			)
-			(symbol "LM1117MP-5.0_1_1"
+			(symbol "MCP1826S_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -4455,7 +4458,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4473,7 +4476,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4491,7 +4494,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5342,6 +5345,12 @@
 		(uuid "024bf3cb-fb67-47af-b492-e06ddc94edfc")
 	)
 	(junction
+		(at 199.39 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c9a74a0-c8d9-4a05-852b-72d14cf6c191")
+	)
+	(junction
 		(at 292.1 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5370,6 +5379,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c90a5b0-83bc-41cb-aacd-cfa9f789139f")
+	)
+	(junction
+		(at 175.26 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fa8559a-1fba-46d4-b59f-2347a7cf5da5")
 	)
 	(junction
 		(at 341.63 63.5)
@@ -5438,12 +5453,6 @@
 		(uuid "9bc7f125-8c5f-4349-9f54-c0964c19f8e7")
 	)
 	(junction
-		(at 175.26 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ecab01a-df66-4acc-bdd6-95abf52dbda4")
-	)
-	(junction
 		(at 167.64 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5454,12 +5463,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a889d6a8-7a03-4bb7-99d4-708882cf9d1d")
-	)
-	(junction
-		(at 199.39 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae02939f-0918-4e69-9008-bd31b7ccd736")
 	)
 	(junction
 		(at 346.71 62.23)
@@ -5827,6 +5830,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 238.76) (xy 187.96 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a47774e-a8d1-4bc8-935d-79136ad41749")
+	)
+	(wire
+		(pts
 			(xy 74.93 135.89) (xy 80.01 135.89)
 		)
 		(stroke
@@ -5924,6 +5937,16 @@
 			(type default)
 		)
 		(uuid "33720fa9-d7e1-46ae-b364-c4d329e4031d")
+	)
+	(wire
+		(pts
+			(xy 175.26 231.14) (xy 180.34 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3548fdf3-d8c5-4481-885a-3251b3fb0bd4")
 	)
 	(wire
 		(pts
@@ -6094,16 +6117,6 @@
 			(type default)
 		)
 		(uuid "54ad65fe-ea4c-40fb-b24c-d37727edd2b1")
-	)
-	(wire
-		(pts
-			(xy 187.96 238.76) (xy 187.96 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577e01a2-49d1-4e76-8179-7112341a61e7")
 	)
 	(wire
 		(pts
@@ -6357,16 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 231.14) (xy 195.58 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "817cea39-7246-406f-9243-1e5c10566c69")
-	)
-	(wire
-		(pts
 			(xy 292.1 219.71) (xy 292.1 213.36)
 		)
 		(stroke
@@ -6374,16 +6377,6 @@
 			(type default)
 		)
 		(uuid "82ca5702-f4f1-4250-aa73-fb8936336ecd")
-	)
-	(wire
-		(pts
-			(xy 175.26 231.14) (xy 180.34 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ac5a6e-cfe4-4296-aafc-f669e86ecfbb")
 	)
 	(wire
 		(pts
@@ -6694,6 +6687,16 @@
 			(type default)
 		)
 		(uuid "e94174af-4a7b-4b54-ab26-5c9308ff7906")
+	)
+	(wire
+		(pts
+			(xy 195.58 231.14) (xy 199.39 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeef49d7-87b0-4dff-9c34-a21f2975133e")
 	)
 	(wire
 		(pts
@@ -10338,6 +10341,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:MCP1826S")
+		(at 187.96 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7582ee1f-ebf2-409b-be18-33cbb937e576")
+		(property "Reference" "U1"
+			(at 187.96 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1826S"
+			(at 187.96 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf"
+			(at 187.96 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263"
+			(at 187.96 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe652800-5f2f-4cb1-b5cd-22585a8637a0")
+		)
+		(pin "2"
+			(uuid "a4d176a6-0689-406e-92be-1893e47409a5")
+		)
+		(pin "3"
+			(uuid "9e3ee31d-1ce6-4b85-8e6d-69ebd896ab0e")
+		)
+		(instances
+			(project ""
+				(path "/79a95597-2db4-4373-9cc6-70296586f172"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 199.39 234.95 0)
 		(unit 1)
@@ -11629,77 +11703,6 @@
 			(project ""
 				(path "/79a95597-2db4-4373-9cc6-70296586f172"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1117MP-5.0")
-		(at 187.96 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed9fecc4-ac0c-4387-bfb9-fa28360ba77c")
-		(property "Reference" "U1"
-			(at 187.96 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117MP-5.0"
-			(at 187.96 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 187.96 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 187.96 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223"
-			(at 187.96 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45bdd1b4-3b25-4183-89ef-de1fb60b730b")
-		)
-		(pin "1"
-			(uuid "d25d4811-e3f2-4b0a-9574-27efca441fdf")
-		)
-		(pin "2"
-			(uuid "29234ec1-ad4b-47d0-9a01-b0d5ec726a77")
-		)
-		(instances
-			(project ""
-				(path "/79a95597-2db4-4373-9cc6-70296586f172"
-					(reference "U1")
 					(unit 1)
 				)
 			)
