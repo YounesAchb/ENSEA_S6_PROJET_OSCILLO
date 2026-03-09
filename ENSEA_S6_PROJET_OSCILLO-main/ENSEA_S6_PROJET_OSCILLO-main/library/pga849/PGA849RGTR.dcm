@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PGA849RGTR
+D Instrumentation Amplifiers Low-noise wide-bandwidth precision programmable-gain amplifier
+K
+F https://www.ti.com/lit/ds/symlink/pga849.pdf?ts=1751466447660&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FPGA849
+$ENDCMP
+#
+#End Doc Library
