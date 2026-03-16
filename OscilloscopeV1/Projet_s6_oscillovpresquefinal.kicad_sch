@@ -7142,7 +7142,7 @@
 			)
 		)
 	)
-	(global_label "Sortie5V_BOOST"
+	(global_label "Sortie5V"
 		(shape input)
 		(at 215.9 153.67 0)
 		(fields_autoplaced yes)
@@ -7154,7 +7154,7 @@
 		)
 		(uuid "826c53bf-1232-431d-acf2-f4f8ba5630ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.8228 153.67 0)
+			(at 226.7471 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7538,7 @@
 			)
 		)
 	)
-	(global_label "Sortie5V_BOOST"
+	(global_label "Sortie5V"
 		(shape input)
 		(at 46.99 48.26 180)
 		(fields_autoplaced yes)
@@ -7550,7 +7550,7 @@
 		)
 		(uuid "e5cf7a15-d44e-4efd-8f8b-da70658232d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0672 48.26 0)
+			(at 36.1429 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
 			(at 204.47 148.59 0)
 			(effects
 				(font
@@ -9443,7 +9443,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41fadd81-d426-41b6-9b3e-7c675037e5ca")
 		(property "Reference" "PS1"
 			(at 60.96 38.1 0)
@@ -9462,7 +9461,7 @@
 			)
 		)
 		(property "Footprint" "Empreintes:TSM0515D"
-			(at 71.12 140.64 0)
+			(at 47.244 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical"
 			(at 39.37 160.02 0)
 			(effects
 				(font
