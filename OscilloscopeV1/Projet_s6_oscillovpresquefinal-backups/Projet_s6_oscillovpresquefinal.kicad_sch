@@ -5351,6 +5351,12 @@
 		(uuid "0c9a74a0-c8d9-4a05-852b-72d14cf6c191")
 	)
 	(junction
+		(at 292.1 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11ea4d21-2d8d-47f2-b359-3772959177f1")
+	)
+	(junction
 		(at 364.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5379,6 +5385,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "595ee216-8829-4651-9cc7-42aedf0e3882")
+	)
+	(junction
+		(at 292.1 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7351e78b-3444-41ad-b8f1-01ad82236c0e")
 	)
 	(junction
 		(at 326.39 81.28)
@@ -5902,6 +5914,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 224.79) (xy 292.1 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc1a2ad-4fab-40d9-8eb7-3c2f420c7e6e")
+	)
+	(wire
+		(pts
 			(xy 365.76 224.79) (xy 374.65 224.79)
 		)
 		(stroke
@@ -6029,6 +6051,16 @@
 			(type default)
 		)
 		(uuid "54ad65fe-ea4c-40fb-b24c-d37727edd2b1")
+	)
+	(wire
+		(pts
+			(xy 292.1 229.87) (xy 292.1 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589b5926-779c-4f67-8f3b-dda7879dfb86")
 	)
 	(wire
 		(pts
@@ -6492,6 +6524,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 224.79) (xy 297.18 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e904ccc4-e563-49b8-a1b3-e4e5ef1f976e")
+	)
+	(wire
+		(pts
 			(xy 128.27 58.42) (xy 128.27 64.77)
 		)
 		(stroke
@@ -6522,7 +6564,17 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 219.71) (xy 292.1 233.68)
+			(xy 297.18 229.87) (xy 292.1 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ea8ba3-5160-4414-bc63-4658d4389851")
+	)
+	(wire
+		(pts
+			(xy 292.1 224.79) (xy 292.1 229.87)
 		)
 		(stroke
 			(width 0)
@@ -9550,6 +9602,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 299.72 229.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cde68f3-f118-46a8-858b-d8549c0f6b13")
+		(property "Reference" "H4"
+			(at 303.53 228.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 303.53 231.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 299.72 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 299.72 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4fc6b04-bf37-4049-bcb7-c84c067e59e8")
+		)
+		(instances
+			(project "Projet_s6_oscillovpresquefinal"
+				(path "/79a95597-2db4-4373-9cc6-70296586f172"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 353.06 66.04 0)
 		(unit 1)
@@ -10555,6 +10674,73 @@
 			(project ""
 				(path "/79a95597-2db4-4373-9cc6-70296586f172"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 299.72 224.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9149ca16-4e84-40c3-91f3-c02ff8f30166")
+		(property "Reference" "H3"
+			(at 303.53 223.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 303.53 226.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 299.72 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 299.72 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3f7dcae-f7e0-430a-a6ad-3141d1f5cf38")
+		)
+		(instances
+			(project "Projet_s6_oscillovpresquefinal"
+				(path "/79a95597-2db4-4373-9cc6-70296586f172"
+					(reference "H3")
 					(unit 1)
 				)
 			)
