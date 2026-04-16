@@ -8722,6 +8722,18 @@
 		(layer "Edge.Cuts")
 		(uuid "e5287a21-076d-4933-a3bc-84938ebc2f08")
 	)
+	(gr_text "G. Boudoux D.\nOscillo wireless"
+		(at 214 51 90)
+		(layer "F.SilkS")
+		(uuid "5aa08618-9f72-4c8e-815a-42ac95eb6ad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 214.4 68.65)
 		(end 214.35 68.7)
